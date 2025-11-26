@@ -3,7 +3,27 @@ guid: 845bf813689d3485cabf48166ea2f983
 ModelImporter:
   serializedVersion: 24200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: blue
+    second: {fileID: 2100000, guid: c247277a864bd4dd9ba4bafc1222367c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: dark
+    second: {fileID: 2100000, guid: c7a708292601f4b6f829ee456a339e11, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: green
+    second: {fileID: 2100000, guid: 857522f46b4384fbe93962fda7234461, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: white
+    second: {fileID: 2100000, guid: debe343cf2e49438db6dedecde5193bc, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0
@@ -53,9 +73,9 @@ ModelImporter:
       loopBlendOrientation: 0
       loopBlendPositionY: 0
       loopBlendPositionXZ: 0
-      keepOriginalOrientation: 0
+      keepOriginalOrientation: 1
       keepOriginalPositionY: 1
-      keepOriginalPositionXZ: 0
+      keepOriginalPositionXZ: 1
       heightFromFeet: 0
       mirror: 0
       bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
@@ -524,6 +544,36 @@ ModelImporter:
       position: {x: 0, y: 0, z: 0}
       rotation: {x: 0, y: 0, z: 0, w: 1}
       scale: {x: 1, y: 1, z: 1}
+    - name: 2c:dd:a3:66:2d:ac
+      parentName: Aa(Clone)
+      position: {x: -5.2192097, y: 3.1220572, z: -1.2356791}
+      rotation: {x: 0.29895535, y: 0.6187836, z: -0.15783897, w: 0.7090976}
+      scale: {x: 1, y: 1, z: 1}
+    - name: 2c:dd:a3:66:32:d7
+      parentName: Aa(Clone)
+      position: {x: -5.218475, y: 3.0983768, z: 1.6515397}
+      rotation: {x: 0.15944636, y: 0.8632526, z: -0.27500227, w: 0.39210418}
+      scale: {x: 1, y: 1, z: 1}
+    - name: 2c:dd:a3:66:32:db
+      parentName: Aa(Clone)
+      position: {x: 2.7571967, y: 3.2285588, z: 1.4234927}
+      rotation: {x: 0.8314551, y: 0.16256008, z: -0.4594433, w: 0.2667743}
+      scale: {x: 1, y: 1, z: 1}
+    - name: 2c:dd:a3:66:32:e1
+      parentName: Aa(Clone)
+      position: {x: -3.9974067, y: 3.110389, z: -3.2910302}
+      rotation: {x: 0.34965774, y: 0.3209709, z: -0.16038342, w: 0.8654446}
+      scale: {x: 1, y: 1, z: 1}
+    - name: 2c:dd:a3:66:32:f0
+      parentName: Aa(Clone)
+      position: {x: 2.7546778, y: 3.2107875, z: -1.2375547}
+      rotation: {x: 0.64281005, y: 0.24778591, z: -0.68466395, w: 0.23797648}
+      scale: {x: 1, y: 1, z: 1}
+    - name: 2c:dd:a3:66:32:f1
+      parentName: Aa(Clone)
+      position: {x: 1.5935385, y: 3.134911, z: -3.2340648}
+      rotation: {x: 0.3419281, y: -0.22169665, z: -0.008213073, w: 0.9131639}
+      scale: {x: 1, y: 1, z: 1}
     - name: Carola:Root
       parentName: Aa(Clone)
       position: {x: -0, y: 0, z: 0}
@@ -532,12 +582,12 @@ ModelImporter:
     - name: Carola:Hips
       parentName: Carola:Root
       position: {x: -0.010709643, y: 0.8787964, z: 0.008694768}
-      rotation: {x: -0.010674882, y: 0.55990493, z: 0.08517289, w: -0.82409835}
+      rotation: {x: -0.008045444, y: 0.5850315, z: 0.08546137, w: -0.80645514}
       scale: {x: 1, y: 1, z: 1}
     - name: Carola:LeftPelvis
       parentName: Carola:Hips
       position: {x: 0.09929243, y: -0.03014545, z: -0.015272462}
-      rotation: {x: 0, y: -0, z: -0.18403788, w: 0.98291916}
+      rotation: {x: -0.001387166, y: -0.0074076657, z: -0.1840327, w: 0.98289126}
       scale: {x: 1, y: 1, z: 1}
     - name: Carola:LeftUpLeg
       parentName: Carola:LeftPelvis
@@ -548,11 +598,6 @@ ModelImporter:
       parentName: Carola:LeftUpLeg
       position: {x: -0.000741002, y: 0, z: -0.02129747}
       rotation: {x: -0.5086187, y: -0.49123013, z: -0.49123013, w: 0.5086187}
-      scale: {x: 1, y: 1, z: 1}
-    - name: Carola:LeftUpLegTwist
-      parentName: Carola:LeftUpLeg
-      position: {x: -0.20353383, y: 0, z: 0.0070815436}
-      rotation: {x: -0.45105657, y: -0.43184835, z: -0.54456216, w: 0.559917}
       scale: {x: 1, y: 1, z: 1}
     - name: Carola:LeftLeg
       parentName: Carola:LeftUpLeg
@@ -574,10 +619,15 @@ ModelImporter:
       position: {x: -0.08348659, y: -2.2607857e-10, z: 0}
       rotation: {x: 0.055764228, y: 0.70015156, z: -0.05651407, w: 0.7095663}
       scale: {x: 1, y: 1, z: 1}
+    - name: Carola:LeftUpLegTwist
+      parentName: Carola:LeftUpLeg
+      position: {x: -0.20353383, y: 0, z: 0.0070815436}
+      rotation: {x: -0.45105657, y: -0.43184835, z: -0.54456216, w: 0.559917}
+      scale: {x: 1, y: 1, z: 1}
     - name: Carola:RightPelvis
       parentName: Carola:Hips
-      position: {x: -0.09929243, y: -0.03014545, z: -0.015272462}
-      rotation: {x: -0.18403783, y: 0.98291916, z: -7.145551e-17, w: -4.8917374e-17}
+      position: {x: -0.09929238, y: -0.030145466, z: -0.0152724385}
+      rotation: {x: -0.18401596, y: 0.9828022, z: 0.0028397886, w: 0.015167026}
       scale: {x: 1, y: 1, z: 1}
     - name: Carola:RightUpLeg
       parentName: Carola:RightPelvis
@@ -588,11 +638,6 @@ ModelImporter:
       parentName: Carola:RightUpLeg
       position: {x: -0.000741002, y: 0, z: 0.02129747}
       rotation: {x: 0.49123013, y: 0.5086187, z: 0.5086187, w: -0.49123013}
-      scale: {x: 1, y: 1, z: 1}
-    - name: Carola:RightUpLegTwist
-      parentName: Carola:RightUpLeg
-      position: {x: -0.20353383, y: 0, z: -0.0070815436}
-      rotation: {x: 0.5422351, y: 0.5576885, z: 0.4538515, w: -0.43472248}
       scale: {x: 1, y: 1, z: 1}
     - name: Carola:RightLeg
       parentName: Carola:RightUpLeg
@@ -613,6 +658,11 @@ ModelImporter:
       parentName: Carola:RightToeBase
       position: {x: -0.08348659, y: -2.2607857e-10, z: 0}
       rotation: {x: 0.056514084, y: 0.7095663, z: -0.05576424, w: 0.70015156}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Carola:RightUpLegTwist
+      parentName: Carola:RightUpLeg
+      position: {x: -0.20353383, y: 0, z: -0.0070815436}
+      rotation: {x: 0.5422351, y: 0.5576885, z: 0.4538515, w: -0.43472248}
       scale: {x: 1, y: 1, z: 1}
     - name: Carola:Spine
       parentName: Carola:Hips
@@ -659,16 +709,6 @@ ModelImporter:
       position: {x: -0.024669217, y: -0.12279527, z: -0.14665169}
       rotation: {x: -0.18443783, y: 0.6826293, z: 0.18443783, w: 0.6826293}
       scale: {x: 1, y: 1, z: 1}
-    - name: Carola:RightRib3
-      parentName: Carola:Spine3
-      position: {x: -0.024669217, y: -0.12279527, z: 0.14665169}
-      rotation: {x: -0.18443783, y: 0.6826293, z: 0.18443783, w: 0.6826293}
-      scale: {x: 1, y: 1, z: 1}
-    - name: Carola:RightRib4
-      parentName: Carola:Spine3
-      position: {x: -0.07183887, y: -0.041876983, z: 0.14665169}
-      rotation: {x: -0.18443783, y: 0.6826293, z: 0.18443783, w: 0.6826293}
-      scale: {x: 1, y: 1, z: 1}
     - name: Carola:LeftRib4
       parentName: Carola:Spine3
       position: {x: -0.07183887, y: -0.041876983, z: -0.14665169}
@@ -682,7 +722,7 @@ ModelImporter:
     - name: Carola:LeftArm
       parentName: Carola:LeftShoulder
       position: {x: -0.12855075, y: -0.0000000019073487, z: 0}
-      rotation: {x: -0.058166184, y: -0.46513903, z: -0.23732989, w: 0.8508449}
+      rotation: {x: -0.058166176, y: -0.46513897, z: -0.23732986, w: 0.8508448}
       scale: {x: 1.0000002, y: 1.0000005, z: 1.0000011}
     - name: Carola:LeftArmTwist
       parentName: Carola:LeftArm
@@ -708,26 +748,6 @@ ModelImporter:
       parentName: Carola:LeftHand
       position: {x: -0.063672714, y: 0.0013292059, z: -0.000017782553}
       rotation: {x: 0.010436074, y: 0.9999456, z: -0.000001481364, w: 0.00014193877}
-      scale: {x: 1, y: 1, z: 1}
-    - name: Carola:LeftHandThumb1
-      parentName: Carola:LeftHand
-      position: {x: -0.01425787, y: -0.0075474516, z: 0.020467397}
-      rotation: {x: -0.07169277, y: 0.31830806, z: 0.11053521, w: 0.9387876}
-      scale: {x: 1.0000001, y: 1.0000005, z: 1.0000001}
-    - name: Carola:LeftHandThumb2
-      parentName: Carola:LeftHandThumb1
-      position: {x: -0.035266113, y: 0, z: 0}
-      rotation: {x: -0.00000008195633, y: 0.00000050663914, z: -0.031858735, w: 0.9994924}
-      scale: {x: 0.9999999, y: 1.0000005, z: 1.0000005}
-    - name: Carola:LeftHandThumb3
-      parentName: Carola:LeftHandThumb2
-      position: {x: -0.027603945, y: 0, z: 0}
-      rotation: {x: -0.000000111765125, y: -0.000000014901099, z: -9.033918e-16, w: 1}
-      scale: {x: 1.0000001, y: 1.0000001, z: 1.0000001}
-    - name: Carola:LeftHandThumbEE
-      parentName: Carola:LeftHandThumb3
-      position: {x: -0.027603945, y: 0, z: 0}
-      rotation: {x: 6.123234e-17, y: 1, z: -6.123234e-17, w: 6.123234e-17}
       scale: {x: 1, y: 1, z: 1}
     - name: Carola:LeftHandIndex1
       parentName: Carola:LeftHand
@@ -769,26 +789,6 @@ ModelImporter:
       position: {x: -0.014424622, y: 0, z: 0}
       rotation: {x: 6.123234e-17, y: 1, z: -6.123234e-17, w: 6.123234e-17}
       scale: {x: 1, y: 1, z: 1}
-    - name: Carola:LeftHandRing1
-      parentName: Carola:LeftHand
-      position: {x: -0.07289785, y: 0.0015217862, z: -0.011066138}
-      rotation: {x: -0.0000015917078, y: -0.00014197078, z: -0.0104359705, w: 0.9999456}
-      scale: {x: 1.0000004, y: 1.0000002, z: 1.0000004}
-    - name: Carola:LeftHandRing2
-      parentName: Carola:LeftHandRing1
-      position: {x: -0.032019287, y: 0, z: 0}
-      rotation: {x: -1.13686784e-13, y: 1.4551908e-11, z: -2.2597596e-10, w: 1}
-      scale: {x: 0.99999976, y: 1.0000005, z: 1.0000004}
-    - name: Carola:LeftHandRing3
-      parentName: Carola:LeftHandRing2
-      position: {x: -0.024903933, y: 0, z: 0}
-      rotation: {x: -0, y: -0, z: 1.6543596e-24, w: 1}
-      scale: {x: 1.0000002, y: 0.9999995, z: 0.9999999}
-    - name: Carola:LeftHandRingEE
-      parentName: Carola:LeftHandRing3
-      position: {x: -0.014230775, y: 0, z: 0}
-      rotation: {x: 6.123234e-17, y: 1, z: -6.123234e-17, w: 6.123234e-17}
-      scale: {x: 1, y: 1, z: 1}
     - name: Carola:LeftHandPinky1
       parentName: Carola:LeftHand
       position: {x: -0.06897364, y: 0.0014398659, z: -0.022973388}
@@ -809,6 +809,56 @@ ModelImporter:
       position: {x: -0.014038453, y: 0, z: 0}
       rotation: {x: 6.123234e-17, y: 1, z: -6.123234e-17, w: 6.123234e-17}
       scale: {x: 1, y: 1, z: 1}
+    - name: Carola:LeftHandRing1
+      parentName: Carola:LeftHand
+      position: {x: -0.07289785, y: 0.0015217862, z: -0.011066138}
+      rotation: {x: -0.0000015917078, y: -0.00014197078, z: -0.0104359705, w: 0.9999456}
+      scale: {x: 1.0000004, y: 1.0000002, z: 1.0000004}
+    - name: Carola:LeftHandRing2
+      parentName: Carola:LeftHandRing1
+      position: {x: -0.032019287, y: 0, z: 0}
+      rotation: {x: -1.13686784e-13, y: 1.4551908e-11, z: -2.2597596e-10, w: 1}
+      scale: {x: 0.99999976, y: 1.0000005, z: 1.0000004}
+    - name: Carola:LeftHandRing3
+      parentName: Carola:LeftHandRing2
+      position: {x: -0.024903933, y: 0, z: 0}
+      rotation: {x: -0, y: -0, z: 1.6543596e-24, w: 1}
+      scale: {x: 1.0000002, y: 0.9999995, z: 0.9999999}
+    - name: Carola:LeftHandRingEE
+      parentName: Carola:LeftHandRing3
+      position: {x: -0.014230775, y: 0, z: 0}
+      rotation: {x: 6.123234e-17, y: 1, z: -6.123234e-17, w: 6.123234e-17}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Carola:LeftHandThumb1
+      parentName: Carola:LeftHand
+      position: {x: -0.01425787, y: -0.0075474516, z: 0.020467397}
+      rotation: {x: -0.07169277, y: 0.31830806, z: 0.11053521, w: 0.9387876}
+      scale: {x: 1.0000001, y: 1.0000005, z: 1.0000001}
+    - name: Carola:LeftHandThumb2
+      parentName: Carola:LeftHandThumb1
+      position: {x: -0.035266113, y: 0, z: 0}
+      rotation: {x: -0.00000008195633, y: 0.00000050663914, z: -0.031858735, w: 0.9994924}
+      scale: {x: 0.9999999, y: 1.0000005, z: 1.0000005}
+    - name: Carola:LeftHandThumb3
+      parentName: Carola:LeftHandThumb2
+      position: {x: -0.027603945, y: 0, z: 0}
+      rotation: {x: -0.000000111765125, y: -0.000000014901099, z: -9.033918e-16, w: 1}
+      scale: {x: 1.0000001, y: 1.0000001, z: 1.0000001}
+    - name: Carola:LeftHandThumbEE
+      parentName: Carola:LeftHandThumb3
+      position: {x: -0.027603945, y: 0, z: 0}
+      rotation: {x: 6.123234e-17, y: 1, z: -6.123234e-17, w: 6.123234e-17}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Carola:RightRib3
+      parentName: Carola:Spine3
+      position: {x: -0.024669217, y: -0.12279527, z: 0.14665169}
+      rotation: {x: -0.18443783, y: 0.6826293, z: 0.18443783, w: 0.6826293}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Carola:RightRib4
+      parentName: Carola:Spine3
+      position: {x: -0.07183887, y: -0.041876983, z: 0.14665169}
+      rotation: {x: -0.18443783, y: 0.6826293, z: 0.18443783, w: 0.6826293}
+      scale: {x: 1, y: 1, z: 1}
     - name: Carola:RightShoulder
       parentName: Carola:Spine3
       position: {x: -0.15033555, y: 0.10742632, z: 0.039825182}
@@ -817,7 +867,7 @@ ModelImporter:
     - name: Carola:RightArm
       parentName: Carola:RightShoulder
       position: {x: -0.12855075, y: -0.0000000019073487, z: 0}
-      rotation: {x: -0.08345677, y: -0.5777897, z: 0.044170458, w: 0.8107052}
+      rotation: {x: -0.08345678, y: -0.5777898, z: 0.04417046, w: 0.81070524}
       scale: {x: 0.99999976, y: 1.0000005, z: 1.0000004}
     - name: Carola:RightArmTwist
       parentName: Carola:RightArm
@@ -837,12 +887,92 @@ ModelImporter:
     - name: Carola:RightHand
       parentName: Carola:RightForeArm
       position: {x: -0.2459474, y: 0, z: 0}
-      rotation: {x: -0.0000014882522, y: -0.00014193353, z: 0.010436076, w: 0.9999455}
+      rotation: {x: -0.0000014882523, y: -0.00014193355, z: 0.010436077, w: 0.9999456}
       scale: {x: 1.0000002, y: 1.0000001, z: 1.0000007}
     - name: Carola:RightHandEE
       parentName: Carola:RightHand
       position: {x: -0.063672714, y: 0.0013292059, z: 0.000017782553}
       rotation: {x: 0.0000014807356, y: 0.00014187829, z: -0.010436093, w: 0.9999456}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Carola:RightHandIndex1
+      parentName: Carola:RightHand
+      position: {x: -0.07682545, y: 0.0016037772, z: -0.012749471}
+      rotation: {x: 0.0000014882523, y: 0.00014193355, z: -0.010436077, w: 0.9999456}
+      scale: {x: 1.0000001, y: 1, z: 0.99999964}
+    - name: Carola:RightHandIndex2
+      parentName: Carola:RightHandIndex1
+      position: {x: -0.032900024, y: 0, z: 0}
+      rotation: {x: -0.00000006891763, y: -0.000000007450579, z: 0.000000065912666, w: 1}
+      scale: {x: 1, y: 1.0000001, z: 1.0000002}
+    - name: Carola:RightHandIndex3
+      parentName: Carola:RightHandIndex2
+      position: {x: -0.02193335, y: 0, z: 0}
+      rotation: {x: 0.00000006891774, y: 0.000000007450579, z: -0.00000006705522, w: 1}
+      scale: {x: 1.0000002, y: 0.99999976, z: 1.0000001}
+    - name: Carola:RightHandIndexEE
+      parentName: Carola:RightHandIndex3
+      position: {x: -0.014622254, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Carola:RightHandMiddle1
+      parentName: Carola:RightHand
+      position: {x: -0.079174586, y: 0.0016528168, z: -0.0008404417}
+      rotation: {x: 0.0000014882523, y: 0.00014193355, z: -0.010436077, w: 0.9999456}
+      scale: {x: 1.0000001, y: 1.0000001, z: 0.9999999}
+    - name: Carola:RightHandMiddle2
+      parentName: Carola:RightHandMiddle1
+      position: {x: -0.03389783, y: 0, z: 0}
+      rotation: {x: 1.1368681e-13, y: -0, z: -0.0000000011425553, w: 1}
+      scale: {x: 1.0000001, y: 1, z: 1.0000001}
+    - name: Carola:RightHandMiddle3
+      parentName: Carola:RightHandMiddle2
+      position: {x: -0.025243044, y: 0, z: 0}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1.0000006, y: 1.0000001, z: 1.0000001}
+    - name: Carola:RightHandMiddleEE
+      parentName: Carola:RightHandMiddle3
+      position: {x: -0.014424622, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Carola:RightHandPinky1
+      parentName: Carola:RightHand
+      position: {x: -0.06897364, y: 0.0014398659, z: 0.022973388}
+      rotation: {x: 0.0000014882523, y: 0.00014193355, z: -0.010436077, w: 0.9999456}
+      scale: {x: 1.0000002, y: 1, z: 0.9999999}
+    - name: Carola:RightHandPinky2
+      parentName: Carola:RightHandPinky1
+      position: {x: -0.028076906, y: 0, z: 0}
+      rotation: {x: 1.1368681e-13, y: -0, z: -0.0000000011425553, w: 1}
+      scale: {x: 1.0000004, y: 1.0000002, z: 1.0000002}
+    - name: Carola:RightHandPinky3
+      parentName: Carola:RightHandPinky2
+      position: {x: -0.014038453, y: 0, z: 0}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1.0000002, y: 1.0000002, z: 1.0000002}
+    - name: Carola:RightHandPinkyEE
+      parentName: Carola:RightHandPinky3
+      position: {x: -0.014038453, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Carola:RightHandRing1
+      parentName: Carola:RightHand
+      position: {x: -0.07289785, y: 0.0015217862, z: 0.011066138}
+      rotation: {x: 0.0000014882523, y: 0.00014193355, z: -0.010436077, w: 0.9999456}
+      scale: {x: 1.0000001, y: 0.99999976, z: 0.99999964}
+    - name: Carola:RightHandRing2
+      parentName: Carola:RightHandRing1
+      position: {x: -0.032019287, y: 0, z: 0}
+      rotation: {x: -0.000000027939443, y: -0.000000037252896, z: 0.00000008733312, w: 1}
+      scale: {x: 1, y: 1.0000001, z: 1.0000002}
+    - name: Carola:RightHandRing3
+      parentName: Carola:RightHandRing2
+      position: {x: -0.024903933, y: 0, z: 0}
+      rotation: {x: -0.000000040978183, y: 0.000000029802319, z: -0.000000021420457, w: 1}
+      scale: {x: 1.0000001, y: 1.0000001, z: 1}
+    - name: Carola:RightHandRingEE
+      parentName: Carola:RightHandRing3
+      position: {x: -0.014230775, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
       scale: {x: 1, y: 1, z: 1}
     - name: Carola:RightHandThumb1
       parentName: Carola:RightHand
@@ -864,90 +994,10 @@ ModelImporter:
       position: {x: -0.027603945, y: 0, z: 0}
       rotation: {x: 0, y: -0, z: -0, w: 1}
       scale: {x: 1, y: 1, z: 1}
-    - name: Carola:RightHandIndex1
-      parentName: Carola:RightHand
-      position: {x: -0.07682545, y: 0.0016037772, z: -0.012749471}
-      rotation: {x: 0.0000014882522, y: 0.00014193353, z: -0.010436076, w: 0.9999455}
-      scale: {x: 1.0000001, y: 1, z: 0.99999964}
-    - name: Carola:RightHandIndex2
-      parentName: Carola:RightHandIndex1
-      position: {x: -0.032900024, y: 0, z: 0}
-      rotation: {x: -0.00000006891763, y: -0.000000007450579, z: 0.000000065912666, w: 1}
-      scale: {x: 1, y: 1.0000001, z: 1.0000002}
-    - name: Carola:RightHandIndex3
-      parentName: Carola:RightHandIndex2
-      position: {x: -0.02193335, y: 0, z: 0}
-      rotation: {x: 0.00000006891774, y: 0.000000007450579, z: -0.00000006705522, w: 1}
-      scale: {x: 1.0000002, y: 0.99999976, z: 1.0000001}
-    - name: Carola:RightHandIndexEE
-      parentName: Carola:RightHandIndex3
-      position: {x: -0.014622254, y: 0, z: 0}
-      rotation: {x: 0, y: -0, z: -0, w: 1}
-      scale: {x: 1, y: 1, z: 1}
-    - name: Carola:RightHandMiddle1
-      parentName: Carola:RightHand
-      position: {x: -0.079174586, y: 0.0016528168, z: -0.0008404417}
-      rotation: {x: 0.0000014882522, y: 0.00014193353, z: -0.010436076, w: 0.9999455}
-      scale: {x: 1.0000001, y: 1.0000001, z: 0.9999999}
-    - name: Carola:RightHandMiddle2
-      parentName: Carola:RightHandMiddle1
-      position: {x: -0.03389783, y: 0, z: 0}
-      rotation: {x: 1.1368681e-13, y: -0, z: -0.0000000011425553, w: 1}
-      scale: {x: 1.0000001, y: 1, z: 1.0000001}
-    - name: Carola:RightHandMiddle3
-      parentName: Carola:RightHandMiddle2
-      position: {x: -0.025243044, y: 0, z: 0}
-      rotation: {x: -0, y: -0, z: -0, w: 1}
-      scale: {x: 1.0000006, y: 1.0000001, z: 1.0000001}
-    - name: Carola:RightHandMiddleEE
-      parentName: Carola:RightHandMiddle3
-      position: {x: -0.014424622, y: 0, z: 0}
-      rotation: {x: 0, y: -0, z: -0, w: 1}
-      scale: {x: 1, y: 1, z: 1}
-    - name: Carola:RightHandRing1
-      parentName: Carola:RightHand
-      position: {x: -0.07289785, y: 0.0015217862, z: 0.011066138}
-      rotation: {x: 0.0000014882522, y: 0.00014193353, z: -0.010436076, w: 0.9999455}
-      scale: {x: 1.0000001, y: 0.99999976, z: 0.99999964}
-    - name: Carola:RightHandRing2
-      parentName: Carola:RightHandRing1
-      position: {x: -0.032019287, y: 0, z: 0}
-      rotation: {x: -0.000000027939443, y: -0.000000037252896, z: 0.00000008733312, w: 1}
-      scale: {x: 1, y: 1.0000001, z: 1.0000002}
-    - name: Carola:RightHandRing3
-      parentName: Carola:RightHandRing2
-      position: {x: -0.024903933, y: 0, z: 0}
-      rotation: {x: -0.000000040978183, y: 0.000000029802319, z: -0.000000021420457, w: 1}
-      scale: {x: 1.0000001, y: 1.0000001, z: 1}
-    - name: Carola:RightHandRingEE
-      parentName: Carola:RightHandRing3
-      position: {x: -0.014230775, y: 0, z: 0}
-      rotation: {x: 0, y: -0, z: -0, w: 1}
-      scale: {x: 1, y: 1, z: 1}
-    - name: Carola:RightHandPinky1
-      parentName: Carola:RightHand
-      position: {x: -0.06897364, y: 0.0014398659, z: 0.022973388}
-      rotation: {x: 0.0000014882522, y: 0.00014193353, z: -0.010436076, w: 0.9999455}
-      scale: {x: 1.0000002, y: 1, z: 0.9999999}
-    - name: Carola:RightHandPinky2
-      parentName: Carola:RightHandPinky1
-      position: {x: -0.028076906, y: 0, z: 0}
-      rotation: {x: 1.1368681e-13, y: -0, z: -0.0000000011425553, w: 1}
-      scale: {x: 1.0000004, y: 1.0000002, z: 1.0000002}
-    - name: Carola:RightHandPinky3
-      parentName: Carola:RightHandPinky2
-      position: {x: -0.014038453, y: 0, z: 0}
-      rotation: {x: -0, y: -0, z: -0, w: 1}
-      scale: {x: 1.0000002, y: 1.0000002, z: 1.0000002}
-    - name: Carola:RightHandPinkyEE
-      parentName: Carola:RightHandPinky3
-      position: {x: -0.014038453, y: 0, z: 0}
-      rotation: {x: 0, y: -0, z: -0, w: 1}
-      scale: {x: 1, y: 1, z: 1}
     - name: Carola:Spine4
       parentName: Carola:Spine3
       position: {x: -0.07890532, y: 0.11449187, z: 0}
-      rotation: {x: -0.0000000074505797, y: 0.00000008940696, z: -0.2142868, w: 0.97677076}
+      rotation: {x: -0.00000000745058, y: 0.00000008940697, z: -0.21428682, w: 0.9767708}
       scale: {x: 1.0000001, y: 1.0000002, z: 0.9999999}
     - name: Carola:Neck
       parentName: Carola:Spine4
@@ -957,7 +1007,7 @@ ModelImporter:
     - name: Carola:Head
       parentName: Carola:Neck
       position: {x: -0.08294907, y: 0, z: 0}
-      rotation: {x: -0.000000036030144, y: 0.00000003758584, z: -0.12093744, w: 0.9926601}
+      rotation: {x: -0.000000036030148, y: 0.000000037585842, z: -0.120937444, w: 0.99266016}
       scale: {x: 1.0000004, y: 1.0000001, z: 1}
     - name: Carola:HeadEE
       parentName: Carola:Head
@@ -968,36 +1018,6 @@ ModelImporter:
       parentName: Aa(Clone)
       position: {x: -0, y: 0, z: 0}
       rotation: {x: -6.123234e-17, y: 1, z: 6.123234e-17, w: -3.7493994e-33}
-      scale: {x: 1, y: 1, z: 1}
-    - name: 2c:dd:a3:66:2d:ac
-      parentName: Aa(Clone)
-      position: {x: -5.2192097, y: 3.1220572, z: -1.2356791}
-      rotation: {x: 0.29895535, y: 0.6187836, z: -0.15783897, w: 0.7090976}
-      scale: {x: 1, y: 1, z: 1}
-    - name: 2c:dd:a3:66:32:d7
-      parentName: Aa(Clone)
-      position: {x: -5.218475, y: 3.0983768, z: 1.6515397}
-      rotation: {x: 0.15944636, y: 0.8632526, z: -0.27500227, w: 0.39210418}
-      scale: {x: 1, y: 1, z: 1}
-    - name: 2c:dd:a3:66:32:db
-      parentName: Aa(Clone)
-      position: {x: 2.7571967, y: 3.2285588, z: 1.4234927}
-      rotation: {x: 0.8314551, y: 0.16256008, z: -0.4594433, w: 0.2667743}
-      scale: {x: 1, y: 1, z: 1}
-    - name: 2c:dd:a3:66:32:e1
-      parentName: Aa(Clone)
-      position: {x: -3.9974067, y: 3.110389, z: -3.2910302}
-      rotation: {x: 0.34965774, y: 0.3209709, z: -0.16038342, w: 0.8654446}
-      scale: {x: 1, y: 1, z: 1}
-    - name: 2c:dd:a3:66:32:f0
-      parentName: Aa(Clone)
-      position: {x: 2.7546778, y: 3.2107875, z: -1.2375547}
-      rotation: {x: 0.64281005, y: 0.24778591, z: -0.68466395, w: 0.23797648}
-      scale: {x: 1, y: 1, z: 1}
-    - name: 2c:dd:a3:66:32:f1
-      parentName: Aa(Clone)
-      position: {x: 1.5935385, y: 3.134911, z: -3.2340648}
-      rotation: {x: 0.3419281, y: -0.22169665, z: -0.008213073, w: 0.9131639}
       scale: {x: 1, y: 1, z: 1}
     armTwist: 0.5
     foreArmTwist: 0.5
